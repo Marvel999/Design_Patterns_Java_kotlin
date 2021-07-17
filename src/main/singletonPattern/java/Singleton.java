@@ -1,9 +1,9 @@
-package main.singletonPattern;
+package main.singletonPattern.java;
 
 public class Singleton {
 
     private static Singleton singleton=null;
-     private static int number=0;
+       int number=0;
 
     private Singleton(){
         System.out.println("Constructor");
@@ -22,7 +22,7 @@ public class Singleton {
         System.out.println("I am playing");
     }
 
-    public static void displayNum(){
+    public void displayNum(){
         System.out.println(""+number);
     }
 
